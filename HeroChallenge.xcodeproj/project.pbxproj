@@ -13,6 +13,19 @@
 		1104A25A2A93539C00ED85A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1104A2582A93539C00ED85A5 /* Main.storyboard */; };
 		1104A25C2A93539C00ED85A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1104A25B2A93539C00ED85A5 /* Assets.xcassets */; };
 		1104A25F2A93539C00ED85A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1104A25D2A93539C00ED85A5 /* LaunchScreen.storyboard */; };
+		1104A2682A93548100ED85A5 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 1104A2672A93548100ED85A5 /* Hero */; };
+		1104A26B2A93548F00ED85A5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1104A26A2A93548F00ED85A5 /* SnapKit */; };
+		1104A26D2A93554A00ED85A5 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A26C2A93554A00ED85A5 /* SecondVC.swift */; };
+		1104A26F2A9355AB00ED85A5 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A26E2A9355AB00ED85A5 /* ThirdVC.swift */; };
+		1104A2712A9355FF00ED85A5 /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A2702A9355FF00ED85A5 /* FourthVC.swift */; };
+		1104A2732A93563D00ED85A5 /* FifthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A2722A93563D00ED85A5 /* FifthVC.swift */; };
+		1104A2752A93568400ED85A5 /* SixthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A2742A93568400ED85A5 /* SixthVC.swift */; };
+		1104A2772A93569600ED85A5 /* SeventhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A2762A93569600ED85A5 /* SeventhVC.swift */; };
+		1104A2792A9356AF00ED85A5 /* EighthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A2782A9356AF00ED85A5 /* EighthVC.swift */; };
+		1104A27B2A9356C800ED85A5 /* NinethVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A27A2A9356C800ED85A5 /* NinethVC.swift */; };
+		1104A27D2A9356DD00ED85A5 /* TenthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A27C2A9356DD00ED85A5 /* TenthVC.swift */; };
+		1104A27F2A9356F200ED85A5 /* EleventhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A27E2A9356F200ED85A5 /* EleventhVC.swift */; };
+		1104A2812A93570900ED85A5 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1104A2802A93570900ED85A5 /* FinishVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,17 @@
 		1104A25B2A93539C00ED85A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1104A25E2A93539C00ED85A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1104A2602A93539D00ED85A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1104A26C2A93554A00ED85A5 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		1104A26E2A9355AB00ED85A5 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		1104A2702A9355FF00ED85A5 /* FourthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
+		1104A2722A93563D00ED85A5 /* FifthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthVC.swift; sourceTree = "<group>"; };
+		1104A2742A93568400ED85A5 /* SixthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthVC.swift; sourceTree = "<group>"; };
+		1104A2762A93569600ED85A5 /* SeventhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhVC.swift; sourceTree = "<group>"; };
+		1104A2782A9356AF00ED85A5 /* EighthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthVC.swift; sourceTree = "<group>"; };
+		1104A27A2A9356C800ED85A5 /* NinethVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethVC.swift; sourceTree = "<group>"; };
+		1104A27C2A9356DD00ED85A5 /* TenthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthVC.swift; sourceTree = "<group>"; };
+		1104A27E2A9356F200ED85A5 /* EleventhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhVC.swift; sourceTree = "<group>"; };
+		1104A2802A93570900ED85A5 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1104A2682A93548100ED85A5 /* Hero in Frameworks */,
+				1104A26B2A93548F00ED85A5 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +85,17 @@
 				1104A2522A93539C00ED85A5 /* AppDelegate.swift */,
 				1104A2542A93539C00ED85A5 /* SceneDelegate.swift */,
 				1104A2562A93539C00ED85A5 /* ViewController.swift */,
+				1104A26C2A93554A00ED85A5 /* SecondVC.swift */,
+				1104A26E2A9355AB00ED85A5 /* ThirdVC.swift */,
+				1104A2702A9355FF00ED85A5 /* FourthVC.swift */,
+				1104A2722A93563D00ED85A5 /* FifthVC.swift */,
+				1104A2742A93568400ED85A5 /* SixthVC.swift */,
+				1104A2762A93569600ED85A5 /* SeventhVC.swift */,
+				1104A2782A9356AF00ED85A5 /* EighthVC.swift */,
+				1104A27A2A9356C800ED85A5 /* NinethVC.swift */,
+				1104A27C2A9356DD00ED85A5 /* TenthVC.swift */,
+				1104A27E2A9356F200ED85A5 /* EleventhVC.swift */,
+				1104A2802A93570900ED85A5 /* FinishVC.swift */,
 				1104A2582A93539C00ED85A5 /* Main.storyboard */,
 				1104A25B2A93539C00ED85A5 /* Assets.xcassets */,
 				1104A25D2A93539C00ED85A5 /* LaunchScreen.storyboard */,
@@ -83,6 +120,10 @@
 			dependencies = (
 			);
 			name = HeroChallenge;
+			packageProductDependencies = (
+				1104A2672A93548100ED85A5 /* Hero */,
+				1104A26A2A93548F00ED85A5 /* SnapKit */,
+			);
 			productName = HeroChallenge;
 			productReference = 1104A24F2A93539C00ED85A5 /* HeroChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +152,10 @@
 				Base,
 			);
 			mainGroup = 1104A2462A93539C00ED85A5;
+			packageReferences = (
+				1104A2662A93548100ED85A5 /* XCRemoteSwiftPackageReference "Hero" */,
+				1104A2692A93548F00ED85A5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1104A2502A93539C00ED85A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +183,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1104A27F2A9356F200ED85A5 /* EleventhVC.swift in Sources */,
+				1104A27B2A9356C800ED85A5 /* NinethVC.swift in Sources */,
+				1104A2712A9355FF00ED85A5 /* FourthVC.swift in Sources */,
+				1104A2752A93568400ED85A5 /* SixthVC.swift in Sources */,
 				1104A2572A93539C00ED85A5 /* ViewController.swift in Sources */,
+				1104A2732A93563D00ED85A5 /* FifthVC.swift in Sources */,
 				1104A2532A93539C00ED85A5 /* AppDelegate.swift in Sources */,
+				1104A2772A93569600ED85A5 /* SeventhVC.swift in Sources */,
+				1104A26D2A93554A00ED85A5 /* SecondVC.swift in Sources */,
+				1104A2812A93570900ED85A5 /* FinishVC.swift in Sources */,
+				1104A27D2A9356DD00ED85A5 /* TenthVC.swift in Sources */,
 				1104A2552A93539C00ED85A5 /* SceneDelegate.swift in Sources */,
+				1104A26F2A9355AB00ED85A5 /* ThirdVC.swift in Sources */,
+				1104A2792A9356AF00ED85A5 /* EighthVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +414,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1104A2662A93548100ED85A5 /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		1104A2692A93548F00ED85A5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1104A2672A93548100ED85A5 /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1104A2662A93548100ED85A5 /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		1104A26A2A93548F00ED85A5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1104A2692A93548F00ED85A5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1104A2472A93539C00ED85A5 /* Project object */;
 }

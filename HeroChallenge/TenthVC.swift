@@ -1,15 +1,13 @@
 //
-//  ViewController.swift
+//  TenthVC.swift
 //  HeroChallenge
 //
 //  Created by Gizem Zorlu on 21.08.2023.
 //
 
-import Hero
-import SnapKit
 import UIKit
 
-class ViewController: UIViewController {
+class TenthVC: UIViewController {
 
     let imageView: UIImageView = UIImageView()
     let buttonUp: UIButton = UIButton()
@@ -17,24 +15,10 @@ class ViewController: UIViewController {
     let buttonDown: UIButton = UIButton()
     let buttonLeft: UIButton = UIButton()
     let arrowImageView: UIImageView = UIImageView()
-    var animations: [HeroDefaultAnimationType] = [
-      .push(direction: .left),
-      .pull(direction: .left),
-      .slide(direction: .leading),
-      .zoomSlide(direction: .trailing),
-      .cover(direction: .up),
-      .uncover(direction: .up),
-      .pageIn(direction: .left),
-      .pageOut(direction: .left),
-      .fade,
-      .zoom,
-      .zoomOut,
-      .none
-    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         configureUI()
     }
     
@@ -44,73 +28,70 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .white
         
-       
-        imageView.image = UIImage(named: "maze")
         view.addSubview(imageView)
+        imageView.image = UIImage(named: "maze")
         imageView.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(100)
             make.centerX.equalToSuperview()
             make.height.width.equalTo(300)
         }
         
-      
-        arrowImageView.image = UIImage(systemName: "person.fill")
         view.addSubview(arrowImageView)
+        arrowImageView.image = UIImage(systemName: "person.fill")
         arrowImageView.snp.makeConstraints { make in
-            make.top.equalTo(imageView.snp.bottom)
-            make.centerX.equalToSuperview().offset(40)
+            make.top.equalTo(imageView.snp.bottom).offset(-275)
+            make.centerX.equalToSuperview().offset(-110)
             make.height.width.equalTo(30)
         }
         
-        
-        buttonUp.setBackgroundImage(UIImage(systemName: "arrow.up"), for: .normal)
-        buttonUp.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         view.addSubview(buttonUp)
+        buttonUp.setBackgroundImage(UIImage(systemName: "arrow.up"), for: .normal)
         buttonUp.snp.makeConstraints { make in
             make.top.equalTo(imageView.snp.bottom).offset(100)
             make.centerX.equalToSuperview()
             make.height.width.equalTo(100)
         }
         
-        
-        buttonLeft.setBackgroundImage(UIImage(systemName: "arrow.left"), for: .normal)
         view.addSubview(buttonLeft)
+        buttonLeft.setBackgroundImage(UIImage(systemName: "arrow.left"), for: .normal)
         buttonLeft.snp.makeConstraints { make in
             make.top.equalTo(imageView.snp.bottom).offset(200)
             make.left.equalToSuperview().offset(50)
             make.height.width.equalTo(100)
         }
         
-        
-        buttonRight.setBackgroundImage(UIImage(systemName: "arrow.right"), for: .normal)
         view.addSubview(buttonRight)
+        buttonRight.setBackgroundImage(UIImage(systemName: "arrow.right"), for: .normal)
+        buttonRight.addTarget(self, action: #selector(buttonRightTapped), for: .touchUpInside)
         buttonRight.snp.makeConstraints { make in
             make.top.equalTo(imageView.snp.bottom).offset(200)
             make.right.equalToSuperview().offset(-50)
             make.height.width.equalTo(100)
         }
         
-        
-        buttonDown.setBackgroundImage(UIImage(systemName: "arrow.down"), for: .normal)
         view.addSubview(buttonDown)
+        buttonDown.setBackgroundImage(UIImage(systemName: "arrow.down"), for: .normal)
+        buttonDown.addTarget(self, action: #selector(buttonDownTapped), for: .touchUpInside)
         buttonDown.snp.makeConstraints { make in
             make.top.equalTo(imageView.snp.bottom).offset(300)
             make.centerX.equalToSuperview()
             make.height.width.equalTo(100)
         }
-        
-        
-        
     }
     
-    @objc func buttonTapped() {
-        let vc = SecondVC()
-        vc.modalPresentationStyle = .fullScreen
-        vc.hero.isEnabled = true
-//        vc.hero.modalAnimationType = HeroDefaultAnimationType.slide(direction: .up)
-        present(vc, animated: true, completion: nil)
+    @objc func buttonRightTapped() {
+        let vc = EleventhVC()
+                    vc.modalPresentationStyle = .fullScreen
+                    vc.hero.isEnabled = true
+                    present(vc, animated: true, completion: nil)
          
                 }
-
+    
+    @objc func buttonDownTapped() {
+        let vc = NinethVC()
+                    vc.modalPresentationStyle = .fullScreen
+                    vc.hero.isEnabled = true
+                    present(vc, animated: true, completion: nil)
+         
+                }
 }
-
